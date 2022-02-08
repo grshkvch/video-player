@@ -129,9 +129,9 @@ volumeBtn.addEventListener('click', toggleVolume)
 // Fullscreen
 function toggleFullscreen() {
     if (!document.fullscreenElement) {
-        video.requestFullscreen()
+        video.requestFullscreen() || video.webkitRequestFullScreen() || video.mozRequestFullScreen() || video.msRequestFullscreen();
     } else {
-        video.exitFullscreen();
+        video.exitFullscreen() || video.webkitExitFullScreen() || video.mozExitFullScreen() || video.msExitFullscreen();
     }
 }
 
