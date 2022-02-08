@@ -1,1 +1,1 @@
-https://grshkvch.github.io/js30-video-player/video-player 
+https://grshkvch.github.io/video-player 
